@@ -24,6 +24,10 @@ export default defineConfig(({ mode }) => {
     resolve: {
       alias: [
         { find: "@pages", replacement: resolve(__dirname, "src/pages") },
+        { find: "@items", replacement: resolve(__dirname, "src/items") },
+        { find: "@services", replacement: resolve(__dirname, "src/services") },
+        { find: "@store", replacement: resolve(__dirname, "src/store") },
+        { find: "@styles", replacement: resolve(__dirname, "src/assets/styles") },
         { find: "@", replacement: resolve(__dirname, "src") },
       ]
     },

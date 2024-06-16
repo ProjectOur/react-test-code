@@ -24,6 +24,10 @@
     "baseUrl": ".",
     "paths": {
       "@pages/*": ["src/pages/*"],
+      "@items/*": ["src/items/*"],
+      "@services/*": ["src/services/*"],
+      "@store/*": ["src/store/*"],
+      "@styles/*": ["src/assets/styles/*"],
       "@/*": ["src/*"]
     }
   },

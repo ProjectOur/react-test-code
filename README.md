@@ -15,6 +15,7 @@ npm install styled-component
 npm install react-router-dom @types/react-router-dom
 npm install zustand
 npm install react-query
+npm install @tanstack/react-query @tanstack/react-query-devtools
 
 # dev
 
